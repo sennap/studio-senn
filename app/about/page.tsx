@@ -10,9 +10,9 @@ export default function AboutPage() {
       <main className="pt-24">
         <section className="container mx-auto px-6 py-16 md:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div className="relative aspect-[4/5] rounded-lg overflow-hidden bg-muted">
+            <div className="relative aspect-[4/5] rounded-lg overflow-hidden bg-muted max-w-md">
               <Image
-                src="/placeholder.svg?height=800&width=640"
+                src="/about.JPG?height=800&width=640"
                 alt="About the photographer"
                 fill
                 className="object-cover"
@@ -20,33 +20,25 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <p className="text-sm text-muted-foreground mb-2">About</p>
-              <h1 className="font-serif text-3xl md:text-4xl font-medium mb-6">
-                Hello, I'm the photographer behind Pawtraits
-              </h1>
+              <h2 className="text-sm text-muted-foreground mb-2">About</h2>
+              <p className="font-serif text-3xl md:text-4xl font-medium mb-6">
+                Hello, my name is Senna, the photographer behind Studio Senn
+              </p>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  With over a decade of experience in photography, I've found my true passion lies in capturing the
-                  unique personalities of pets. Every animal has a story to tell, and I believe in creating images that
-                  reflect their spirit.
+                  I'm a Turkish-American living in the Netherlands. By day I work in tech 🤓 by habit, I (try not to forget to) carry my camera. Photography has long been a hobby of mine, inspired by years of traveling to Turkey and capturing street life, mainly the cats and dogs!
                 </p>
                 <p>
-                  Whether it's the playful energy of a puppy, the regal grace of a cat, or the loyal gaze of your senior
-                  companion, I approach each session with patience and creativity.
-                </p>
-                <p>
-                  My work has been featured in various pet magazines and I've had the honor of photographing hundreds of
-                  beloved pets for families across the region.
+                  I’ve always been drawn to animals, and pet photography grew naturally from that. My goal is to create images that feel real: photographs that reflect your pet’s personality and the bond you share, and that you’ll want to come back to years from now.
                 </p>
               </div>
 
               <div className="mt-8 pt-8 border-t border-border">
                 <h2 className="font-medium mb-4">Services Offered</h2>
                 <ul className="grid grid-cols-2 gap-2 text-sm text-muted-foreground">
-                  <li>• Studio Portraits</li>
                   <li>• Outdoor Sessions</li>
+                  <li>• Portraits at home</li>
                   <li>• Pet & Owner Photos</li>
-                  <li>• Memorial Sessions</li>
                 </ul>
               </div>
             </div>
