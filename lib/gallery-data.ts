@@ -18,22 +18,17 @@ export interface Gallery {
 export const photos: Photo[] = [
   {
     id: "1",
-    src: "/golden-retriever-portrait-photography.jpg",
-    alt: "Golden retriever portrait",
-    width: 600,
-    height: 800,
+    src: "/brown-wolf.JPG",
+    alt: "Brown wold dog sitting in the snow",
+    width: 800,
+    height: 600,
   },
-  { id: "2", src: "/border-collie-running-outdoors.jpg", alt: "Border collie running", width: 800, height: 600 },
-  { id: "3", src: "/labrador-puppy-closeup-cute.jpg", alt: "Labrador puppy closeup", width: 800, height: 800 },
-  { id: "4", src: "/husky-dog-snow-winter.jpg", alt: "Husky in snow", width: 800, height: 600 },
-  { id: "5", src: "/beagle-dog-portrait-studio.jpg", alt: "Beagle portrait", width: 600, height: 800 },
-  { id: "6", src: "/french-bulldog-cute-portrait.jpg", alt: "French bulldog", width: 800, height: 800 },
-  { id: "7", src: "/maine-coon-cat-portrait-fluffy.jpg", alt: "Maine coon portrait", width: 600, height: 800 },
-  { id: "8", src: "/siamese-cat-blue-eyes.jpg", alt: "Siamese cat", width: 800, height: 600 },
-  { id: "9", src: "/black-cat-golden-eyes-portrait.jpg", alt: "Black cat with golden eyes", width: 800, height: 800 },
-  { id: "10", src: "/dog-beach-sunset-golden-hour.jpg", alt: "Dog at beach sunset", width: 800, height: 600 },
-  { id: "11", src: "/cat-garden-flowers-spring.jpg", alt: "Cat in garden", width: 600, height: 800 },
-  { id: "12", src: "/poodle-professional-portrait-studio.jpg", alt: "Poodle portrait", width: 800, height: 600 },
+  { id: "2", src: "/border-collie.JPG", alt: "Border collie relaxing in snow", width: 800, height: 600 },
+  { id: "3", src: "/Ollie.JPG", alt: "Ollie, a Maine Coon, looking up", width: 800, height: 600 },
+  { id: "4", src: "/Ollie-light.JPG", alt: "Ollie, a Maine Coon, laying in the sunlight", width: 800, height: 600 },
+  { id: "5", src: "/Ollie-tail.JPG", alt: "Maine Coon tail in sunlight", width: 800, height: 600 },
+  { id: "6", src: "/Mari-flowers.JPG", alt: "Mari, a shiba inu, sitting in front of flowers", width: 800, height: 600 },
+  { id: "7", src: "/Mari-tail.JPG", alt: "Mari, a shiba inu, tail in a flower field", width: 800, height: 600 }
 ]
 
 // Individual gallery collections
