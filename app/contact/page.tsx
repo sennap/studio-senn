@@ -25,10 +25,10 @@ export default function ContactPage() {
       <main className="pt-24">
         <section className="container mx-auto px-6 py-16 md:py-24">
           <div className="max-w-2xl">
-            <p className="text-sm text-muted-foreground mb-2">Contact</p>
-            <h1 className="font-serif text-3xl md:text-4xl font-medium mb-4">
+            <h2 className="text-sm text-muted-foreground mb-2">Contact</h2>
+            <p className="font-serif text-3xl md:text-4xl font-medium mb-4">
               Let's create something beautiful together
-            </h1>
+            </p>
             <p className="text-muted-foreground mb-12">
               Ready to book a session or have questions about my services? Fill out the form below and I'll get back to
               you within 24 hours.

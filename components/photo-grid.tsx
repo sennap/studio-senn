@@ -29,7 +29,7 @@ export function PhotoGrid({ photos }: PhotoGridProps) {
 
   return (
     <>
-      <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
+      <div className="columns-1 sm:columns-2 lg:columns-2 gap-6 space-y-6">
         {photos.map((photo, index) => (
           <button
             key={photo.id}
