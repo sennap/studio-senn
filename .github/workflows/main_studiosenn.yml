@@ -55,5 +55,4 @@ jobs:
           app-name: 'studiosenn'
           slot-name: 'Production'
           package: .
-          enable-oryx-build: true
           
