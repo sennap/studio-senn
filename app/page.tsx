@@ -13,7 +13,7 @@ export default function HomePage() {
         <section className="container mx-auto px-6 py-8 md:py-12">
           <h2 className="text-base text-muted-foreground mb-2">Pet Photography</h2>
           <p className="font-serif text-xl md:text-2xl lg:text-3xl font-small leading-relaxed max-w-3xl text-balance">
-            Artful photography that celebrates the unique spirit of your pet          </p>
+            Capturing moments that celebrate the unique spirit of your pet          </p>
           <div className="mt-8">
             <a
               href="/contact"
