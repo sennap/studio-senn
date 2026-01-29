@@ -26,7 +26,7 @@ export const photos: Photo[] = [
   { id: "3", src: "/Ollie.JPG", alt: "Ollie, a Maine Coon, looking up", width: 800, height: 600 },
   { id: "4", src: "/Ollie-light.JPG", alt: "Ollie, a Maine Coon, laying in the sunlight", width: 800, height: 600 },
   { id: "5", src: "/Ollie-tail.JPG", alt: "Maine Coon tail in sunlight", width: 800, height: 600 },
-  { id: "8", src: "/Mellow.JPG", alt: "Mellow, a frenchie sitting on a zebra couch", width: 800, height: 600 },
+  { id: "8", src: "/Mellow.jpg", alt: "Mellow, a frenchie sitting on a zebra couch", width: 800, height: 600 },
     { id: "7", src: "/Mari-tail.JPG", alt: "Mari, a shiba inu, tail in a flower field", width: 800, height: 600 },
 
       { id: "2", src: "/border-collie.JPG", alt: "Border collie relaxing in snow", width: 800, height: 600 }
