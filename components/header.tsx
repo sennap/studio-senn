@@ -11,7 +11,7 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="font-serif text-xl font-medium tracking-wide">
-          <h1>Studio Senn</h1>
+          <h1>Senn Studio</h1>
         </Link>
 
         {/* Desktop Navigation */}
