@@ -1,7 +1,7 @@
 # Studio Senn - AI Coding Instructions
 
 ## Project Overview
-Pet photography portfolio website built with Next.js 16, initially generated via v0.app and synced with Vercel. Uses pnpm as package manager.
+Pet photography portfolio website built with Next.js 16, deployed on Azure Container Apps. Uses pnpm as package manager.
 
 ## Architecture & Key Files
 
@@ -72,7 +72,6 @@ pnpm dev        # Start dev server on localhost:3000
 
 ## Integration Points
 
-- **Vercel Analytics**: Imported in `app/layout.tsx`, already configured
 - **shadcn/ui**: Component library with custom variants, installed via `components.json`
 - **Radix UI**: Underlying primitives for UI components (don't modify directly)
 
