@@ -1,30 +1,25 @@
-# Photography portfolio website
+# Studio Senn
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Pet photography portfolio website built with Next.js, deployed on Azure Container Apps.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/sennaps-projects/studio-senn)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/fO7luwTJZjA)
+**Live at: [www.senn-studio.com](https://www.senn-studio.com)**
 
-## Overview
+## Tech Stack
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Tailwind CSS v4
+- **UI**: shadcn/ui + Radix UI
+- **Deployment**: Azure Container Apps via GitHub Actions
+- **Registry**: Azure Container Registry
+
+## Development
+
+```bash
+pnpm install    # Install dependencies
+pnpm dev        # Start dev server on localhost:3000
+pnpm build      # Production build
+```
 
 ## Deployment
 
-Your project is live at:
-
-**[https://vercel.com/sennaps-projects/studio-senn](https://vercel.com/sennaps-projects/studio-senn)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/fO7luwTJZjA](https://v0.app/chat/fO7luwTJZjA)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Pushes to `main` automatically build a Docker image, push it to Azure Container Registry, and deploy to Azure Container Apps via the workflow in `.github/workflows/container-apps.yml`.
